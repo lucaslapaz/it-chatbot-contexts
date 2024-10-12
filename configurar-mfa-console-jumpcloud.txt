@@ -1,3 +1,4 @@
+Formate o tutorial usando plain text. Não use nenhuma outra formatação. Pode alterar o texto para correções gramaticais e para deixar mais fácil de entender.
 
 Pré-requisitos
 Instalar o Google Authenticator:
