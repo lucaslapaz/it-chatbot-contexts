@@ -1,3 +1,5 @@
+Altere a o texto para que fique em conformidade com as regras gramaticais e também para que fique mais fácil do usuário entender.
+
 Passo a passo para fazer a migração para o JumpCloud remotamente em computadores que usam Windows.
 
 1 - Conectar no pc do funcionário usando algum programa de acesso remoto (milvus ou anydesk);
