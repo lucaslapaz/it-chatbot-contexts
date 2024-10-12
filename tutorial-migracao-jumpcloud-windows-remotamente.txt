@@ -1,0 +1,19 @@
+Passo a passo para fazer a migração para o JumpCloud remotamente em computadores que usam Windows.
+
+1 - Conectar no pc do funcionário usando algum programa de acesso remoto (milvus ou anydesk);
+2 - No usuário dele mesmo, ver o nome da pasta do usuário;
+3 - Procurar o email do funcionario no JumpCloud, clicar nele, colocar o nome da pasta do usuário no campo de texto local user account, ativar o diretório e clicar em Save User;
+4 - Após clicar em Save User, vai abrir a tela pra enviar o link de criação de senha no email do funcionário, clicar em 'Active now';
+5 - Ligar para o funcionário para instruir a criar a senha e vincular a conta do JumpCloud ao Google Authenticator;
+6 - Estando conectado no computador do funcionário, pedir para ele entrar no gmail pelo seu usuário mesmo e ajudar a criar a senha no JumpCloud e a configurar o Google Authenticator na conta do JumpCloud;
+7 - Após isso, ir em Windows -> ícone do usuário -> sair. Esperar o acesso remoto conectar novamente automaticamente;
+8 - Entrar no usuário Supporte_Solfacil e criar o usuário Suporte e colocá-lo como administrador;
+9 - Ir em Windows -> ícone do usuário -> sair;
+10 - Entrar no usuário Suporte que acabou de criar e remover o usuário Supporte_Solfacil;
+11 - Remover o GCPW caso esteja instalado (o nome do programa começa com a palavra 'Provedor');
+12 - Verificar se o nome do computador está correto, seguindo o padrão 'solfacil-' + número do patrimônio. Se não estiver, colocar;
+12 - Instalar o JumpCloud;
+13 - No JumpCloud, estando com o usuário do funcionário aberto, ir em Devices e procurar pelo computador e marcar a checkbok. Depois, clicar em Save.
+14 - Reiniciar o computador e pedir pro usuário entrar no seu usuário. Se ele conseguir entrar, o processo está finalizado.
+
+Observações: Se o usuário estiver com a mensagem 'Password pendding' ou estiver com algum outro status que não seja 'Active' no JumpCloud, o usuário dele não vai aparecer no windows para ele entrar. Será necessário enviar o email novamente para ele para que crie uma nova senha.
