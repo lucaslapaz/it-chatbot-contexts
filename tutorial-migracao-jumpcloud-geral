@@ -1,0 +1,97 @@
+Altere a o texto para que fique em conformidade com as regras gramaticais e também para que fique mais fácil do usuário entender.
+
+
+Começar com funcionários locais (escritórios)
+Ter 5 máquinas prontas para troca em caso de falha de migração
+
+Assim que tiver certeza que o fluxo está bom, realizar a migração de funcionários remotos.
+Mandar agenda do Google
+
+Comunicar no all hands e na #comunidade
+
+Olá, time!
+Em breve, iremos implementar uma nova ferramenta chamada JumpCloud em todos os computadores da empresa.
+Essa solução permitirá que nossas equipes de TI e Segurança da Informação tenham um controle mais robusto sobre os dispositivos, ajudando a proteger melhor nossos ativos e dados sensíveis.
+Além disso, diversos recursos de segurança serão adicionados aos seus computadores, garantindo uma proteção ainda maior para nosso ambiente de trabalho.
+É um processo muito rápido - nao mais que 30 minutos.
+É importante que todos realizem o backup dos seus dados no Google Drive antes da instalação. Isso garantirá que nenhuma informação importante seja perdida durante o processo.
+Contamos com a colaboração de todos durante essa implementação. Qualquer dúvida, a equipe de TI está à disposição!
+
+
+
+
+Quais as etapas?
+	
+Marcar um horário na nossa agenda, 30 minutos para fazer a migração 
+Não pode ter arquivos locais.
+Falar pra pessoa salvar os arquivos no google drive ou onedrive.
+Rebootar a máquina antes de levar para fazer a migração.
+A pessoa tem que estar presente.
+Google Authenticator: App Default. Duas contas configuradas no app.
+Gmail.
+Jump Cloud Portal do usuário.
+Instruir a pessoa a como fazer a troca de senha.
+Somente será por meio do Jump Cloud.
+
+
+A ser testado:
+Com qual conta de usuário o JumpCloud deverá ser instalado?
+Indiferente se vai ser utilizado a conta support@solfacil.com.br ou a conta do usuário
+Vale a pena fazer todo o processo conta a conta suporte?
+Vale a pena subir temporariamente as permissões da conta do funcionário e depois desfazer as permissões dadas?
+Não será necessário
+Como vai funcionar o acesso adm com a conta suporte?
+Será criado uma conta local Suporte com administrador antes da instalação do Jumpcloud
+
+Como funciona o processo de troca de senha?
+Se trocar a senha no gmail, a senha será alterada no Windows,Mac e Linux?
+Usuários que já existem no gmail não serão vinculadas suas senhas, então caso tenha alteração de senha no gmail, a senha de acesso a Jumpcloud permanecerá a mesma.
+Caso seja criado uma nova conta gmail pelo Jumpcloud, nesse caso sim sempre estará vinculado a senha do Gmail e da Jumpcloud
+Procedimentos de troca de senha Windows, Mac e Linux?
+Indiferente do sistema operacional o usuário poderá alterar sua senha pelo https://console.jumpcloud.com/login?autoGo=false 
+Procedimentos para Migração Windows 10 e Windows 11
+Acessar com support@solfacil.com.br
+Criar conta local ADM 
+com Usuário: Suporte 
+        	Senha: 1q2w#E$R%T¨Y
+Instalar o Jumpcloud
+Pedir para o usuário trocar a sua senha do Jumpcloud https://console.jumpcloud.com/login?autoGo=false 
+Vincular Device pelo nome do Usuario local(deve vincular a conta do jumpcloud com a conta do GCPW ja existente)
+Reiniciar a máquina(verificar se está com o usuário do Jumpcloud)
+Tirar GCPW pelo painel de controle
+Retirar conta support@solfacil.com.br
+
+Procedimentos para Migração Mac
+Acessar com a conta suporte já existente
+Alterar a senha para o novo padrão 
+Instalar o Jumpcloud via MDM Enrollment profile(https://jumpcloud.com/support/add-company-owned-apple-devices-to-mdm-with-device-enrollment)
+
+
+
+Procedimentos para Migração Linux
+
+
+
+Como pegar o nome exato da conta?
+Uma vez que o agente está instalado, o próprio agente vai informar na console quais sao os usuários locais 
+Olhar no disco local e entrar no diretório de usuários
+
+
+MFA para o portal.
+‘
+
+
+Depois de migrado.
+
+Verificar se a maquina tem Milvus e Symantec instalado
+
+Orientar o usuário para sempre que esquecer a senha da máquina alterar no Jumpcloud, a senha do Gmail não está vinculada com a máquina .
+
+
+
+Alterar o link de direcionamento de troca de senha do google workspace para o portal do usuário jumpcloud após finalizada toda a migração.
+
+
+
+
+
