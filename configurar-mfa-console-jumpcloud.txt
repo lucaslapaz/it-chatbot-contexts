@@ -1,0 +1,34 @@
+
+Pré-requisitos
+Instalar o Google Authenticator:
+Certifique-se de que o aplicativo Google Authenticator está instalado no seu dispositivo móvel. Você pode baixá-lo na Google Play Store ou na Apple App Store.
+Colaboradores do Novo Sistema:
+Este procedimento é necessário apenas para colaboradores que já migraram para o novo sistema do JumpCloud.
+Passo a Passo para Configurar MFA no JumpCloud
+Acesse o Portal de Usuário:
+Vá até o Portal de Usuário do JumpCloud.
+https://console.jumpcloud.com/login
+Login:
+Faça login com suas credenciais (Email da Sol Fácil e Senha da maquina).
+Acesse Configurações de MFA:
+No canto superior esquerdo, clique em "Security".
+Procure a seção de MFA ou Autenticação Multifator.
+Habilitar MFA:
+Habilite a opção de MFA. Você poderá ver diferentes métodos de autenticação. Selecione o Google Authenticator.
+Escanear o Código QR:
+Um código QR será exibido na tela. Abra o Google Authenticator no seu dispositivo móvel.
+Toque em “+” ou na opção de adicionar uma nova conta.
+Escolha a opção de escanear o código QR e aponte a câmera do seu dispositivo para o código exibido no JumpCloud.
+Inserir o Código:
+Após escanear, o Google Authenticator gerará um código de seis dígitos.
+Insira esse código no campo correspondente no Portal de Usuário do JumpCloud e confirme.
+Finalizar Configuração:
+Se tudo estiver correto, você verá uma confirmação de que a MFA foi configurada com sucesso.
+Teste a MFA:
+Faça logout e faça login novamente para testar se a autenticação multifator está funcionando corretamente. Após inserir suas credenciais, você deverá inserir o código gerado pelo Google Authenticator.
+
+Se tiver mais dúvidas ou encontrar dificuldades, consulte o TI
+Importante: após 7 dias sem MFA ativado, será bloqueado o acesso na máquina.
+
+
+
