@@ -2,7 +2,7 @@ Altere a o texto para que fique em conformidade com as regras gramaticais e tamb
 
 Passo a passo para fazer a migração para o JumpCloud remotamente em computadores que usam Windows.
 
-1 - Conectar no pc do funcionário usando algum programa de acesso remoto (milvus ou anydesk);
+1 - Conectar no pc do funcionário usando algum programa de acesso remoto (milvus ou anydesk); 
 2 - No usuário dele mesmo, ver o nome da pasta do usuário;
 3 - Procurar o email do funcionario no JumpCloud, clicar nele, colocar o nome da pasta do usuário no campo de texto local user account, ativar o diretório e clicar em Save User;
 4 - Após clicar em Save User, vai abrir a tela pra enviar o link de criação de senha no email do funcionário, clicar em 'Active now';
@@ -14,8 +14,9 @@ Passo a passo para fazer a migração para o JumpCloud remotamente em computador
 10 - Entrar no usuário Suporte que acabou de criar e remover o usuário Supporte_Solfacil;
 11 - Remover o GCPW caso esteja instalado (o nome do programa começa com a palavra 'Provedor');
 12 - Verificar se o nome do computador está correto, seguindo o padrão 'solfacil-' + número do patrimônio. Se não estiver, colocar;
-12 - Instalar o JumpCloud;
-13 - No JumpCloud, estando com o usuário do funcionário aberto, ir em Devices e procurar pelo computador e marcar a checkbok. Depois, clicar em Save.
-14 - Reiniciar o computador e pedir pro usuário entrar no seu usuário. Se ele conseguir entrar, o processo está finalizado.
+13 - Instalar o JumpCloud;
+(link da imagem ilustrando o passo 13: https://addons-media.operacdn.com/media/CACHE/images/themes/95/123395/1.0-rev1/images/d40b13ad-9468-4ebd-8a47-8a8ac1ee783b/66e4435cda17193b5b419081112e33dd.jpg)
+14 - No JumpCloud, estando com o usuário do funcionário aberto, ir em Devices e procurar pelo computador e marcar a checkbok. Depois, clicar em Save.
+15 - Reiniciar o computador e pedir pro usuário entrar no seu usuário. Se ele conseguir entrar, o processo está finalizado.
 
 Observações: Se o usuário estiver com a mensagem 'Password pendding' ou estiver com algum outro status que não seja 'Active' no JumpCloud, o usuário dele não vai aparecer no windows para ele entrar. Será necessário enviar o email novamente para ele para que crie uma nova senha.
