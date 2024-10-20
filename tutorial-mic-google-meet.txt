@@ -1,0 +1,55 @@
+
+Passo 1: Primeiro, antes de qualquer coisa, verifique se o seu microfone possui um botão de desativar o microfone e que ele está ativado. Depois, verificar se o microfone correto está selecionado nas configurações do Google Meet:
+
+
+Passo 1.1: clique no botão de opções (ícone de três pontos); 
+(imagens ilustrativas do passo 1.1, mostrando onde fica o botão de opções quando se está na tela inicial do Google Meet (https://i.imgur.com/1wvtcpu.png) e onde ele fica quando já se está dentro da reunião (https://i.imgur.com/V8BAZY7.png))
+
+Passo 1.2: depois, clique em configurações no menu que aparecer e então abrirá uma janela de configurações. 
+(imagens ilustrativas do passo 1.2, mostrando onde fica o botão de configurações quando se stá na tela inicial do Google Meet (https://i.imgur.com/qtKppHr.png) e onde ele fica quando já se está dentro da reunião (https://i.imgur.com/1mWx42h.png))
+
+
+Passo 1.3: Clique em 'Áudio' no menu esquerdo e verifique se em 'Microfone' o microfone correto está selecionado. 
+(imagem ilustrativa do passo 1.3, mostrando onde fica o botão Áudio e onde se seleciona o microfone: https://i.imgur.com/Po5fPA4.png)
+
+
+Passo 1.4: Se estiver aparecendo "O microfone está bloqueado", isso indica que o site não está com permissão para acessar os seus dispositivos de microfone e será necessário permitir que ele acesse. O processo pode variar de navegador para navegador. 
+(imagem ilustrativa do passo 1.4, mostrando onde fica a mensagem dizendo que o microfone está bloqueado: https://i.imgur.com/ghmmbNy.png)
+
+Se o seu navegador for o Microsoft Edge, seguir os passos: clique no ícone do cadeado que fica à esquerda do campo do URL do site. Na janela que irá aparecer, mostrará as permissões que o site precisa e aparecerá que o microfone está bloqueado. Clique em cima do "Bloqueado" e altere para "Permitir". Após isso, volte na página da reunião do Google Meet e atualize a página. Após isso, verificar se o microfone apareceu nas configurações do Google Meet (ver a explicação de como entrar nas configurações, acima) (imagem ilustrando como dar permissão de acesso ao microfone no navegador Microsoft Edge: https://i.imgur.com/7ixEYns.png).
+
+
+Se seu navegador for o Google Chrome, seguir os passos: clique no ícone de configurações que fica à esquerda do campo do URL do site. Na janela que irá aparecer, clique em "Configurações do site". Isso fará com que uma nova aba seja aberta (imagem ilustrando como acessar a página de permissões no navegador Google Chrome: https://i.imgur.com/cgk010A.png).
+
+Procure, em "Permissões", pelo Microfone e altere a permissão para "Permitir". Após isso, volte na página da reunião do Google Meet e atualize a página. Após isso, verificar se o microfone apareceu nas configurações do Google Meet (ver a explicação de como entrar nas configurações, acima).
+(imagem ilustrando como alterar a permissão do microfone na página de Permissões do Google Chrome: https://i.imgur.com/hhmzwes.png)
+
+Para outros navegadores, pesquise como acessar as configurações das permissões dos sites para que consiga permitir que o site acesse o seu microfone.
+
+
+Passo 1.5: Se o microfone correto já estiver selecionado, então já deve estar funcionando.
+
+
+Passo 1.6: Se o microfone estiver aparecendo mas não estiver selecionado, selecione o correto e teste.
+
+
+Passo 1.7: Se o microfone estiver aparecendo, estiver selecionado e aparecer uma mensagem com ícone laranja de exclamação dizendo "O microfone foi desativado pelo sistema", será necessário verificar se o microfone está funcionando corretamente no computador no passo a seguir.
+(imagem ilustrando o passo 1.7, onde aparece uma mensagem dizendo 'O microfone foi desativado pelo sistema' e com um ícone laranja de exclamação: https://i.imgur.com/NN4EJuu.png)
+
+Passo 1.8: Verificando se o microfone está funcionando em computadore que usam Windows: Aperte a tecla Windows + R e digite \`mmsys.cpl\` no programa que aparecer (programa Executar) e aperte enter. Isso fará com que o \`Painel de Controle de Som\` seja aberto. 
+(imagem ilustrando como abrir o programa Executar, colocar o comando \'mmsys.cpl\' e a apertar o botão Ok para abrir o Painel de controle de Som no passo 1.8: https://i.imgur.com/zQiuSmY.png)
+
+
+Após isso, clique na aba Gravação e verifique se o microfone está aparecendo na lista de dispositivos. Você pode tentar falar alguma coisa para ver se o indicador de volume de som se altera. 
+(imagem ilustrativa mostrando onde fica a aba Gravação dentro do painel de controle de som, mostrando a lista de dispositivos e a como ver o indicador de uso do microfone: https://i.imgur.com/UshcbB5.png)
+
+
+
+Se o indicador de volume se alterar quando você falar, é sinal que o microfone está funcionando corretamente no computador e que o problema está no navegador ou no dispositivo selecionado no próprio Google Meets (seguir os passos explicados acima). Se o indicador de volume não se alterou, clique duas vezes no microfone, clique na aba "Níveis" e veja se o volume está no máximo e o ícone de volume não está silenciado. Se o volume não estiver no máximo, coloque no máximo e aperte em Ok. Se o volume estiver silenciado, desmute e clique em Ok. Após isso, volte no site e teste.
+(imagem ilustrativa mostrando onde fica a aba Níveis, o nível do volume em 100%, o botão desmutado e o botão Ok: https://i.imgur.com/wd0eXXE.png)
+
+Se o seu microfone não aparecer na lista de dispositivos, então o problema pode ser físico. 
+
+Tente desconectar e conectar o cabo na porta USB e veja se o microfone aparece na lista de dispositivos. Se não resolver (não identificar o dispositvo), tente colocar o cabo USB em uma outra porta. Se ainda assim não resolver, tente reiniciar o computador e verificar se aparece no \`Painel de Controle de Som\`.
+
+Se após seguir todos os passos desse tutorial, não resolver, deve-se criar um ticket para que um analista de TI verifique o que pode estar causando o problema.
