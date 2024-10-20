@@ -25,4 +25,4 @@ Observações: Se o usuário estiver com a mensagem 'Password pendding' ou estiv
 
 Há um caso em que após realizada a migração do JumpCloud no computador do funcionário, algum site que só é acessível via VPN não carrega, enquanto outros que também precisam do VPN carregam normalmente (a princípio temos conhecimento apenas do site vault.solfacil.com.br). O problema está ocorrendo porque quando o funcionário tenta entrar no site, aparece uma pop-up pedindo para selecionar um certificado. E o certificado que aparece, é o certificado do JumpCloud. E após isso, o site não carrega mais, sendo necessário reiniciar o computador e tentar entrar novamente para que o pop-up apareça novamente. É necessário clicar no botão cancelar, não devendo selecionar o certificado e confirmar. Após cancelar, o site irá carregar normalmente.
 
-(imagem ilustrativa mostrando o pop-up do navegador pedindo para selecionar o certificado: https://files.slack.com/files-pri/T015ACZRQ20-F07RZ96T9DM/image.png)
+(imagem ilustrativa mostrando o pop-up do navegador pedindo para selecionar o certificado: https://i.imgur.com/60XAPSJ.png)
