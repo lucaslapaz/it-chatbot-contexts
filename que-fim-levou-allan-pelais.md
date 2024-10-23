@@ -1,2 +1,0 @@
-# Do luxo ao lixo
-Essa história é uma história real que aconteceu recentemente na empresa Solfácil. Allan Pelais foi um líder de segurança na empresa solfácil duranto longos 4 meses. Porém, foi denunciado por vários setores da empresa por ser um arrombado (grosso e se sentia superior por conta da sua posição e por seus contatos na empresa) e junto a isso, foi ignorante com um dos donos da empresa sem saber que ele era o dono da empresa e acabou sendo demitido. Junto com ele, seus amigos que haviam sido contratados por ele, foram demitidos ao mesmo tempo.
