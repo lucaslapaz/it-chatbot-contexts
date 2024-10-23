@@ -53,7 +53,7 @@ Procedimentos para Migração Windows 10 e Windows 11
 Acessar com support@solfacil.com.br
 Criar conta local ADM 
 com Usuário: Suporte 
-        	Senha: 1q2w#E$R%T¨Y
+        	Senha: padrão do usuário suporte
 Instalar o Jumpcloud
 Pedir para o usuário trocar a sua senha do Jumpcloud https://console.jumpcloud.com/login?autoGo=false 
 Vincular Device pelo nome do Usuario local(deve vincular a conta do jumpcloud com a conta do GCPW ja existente)
