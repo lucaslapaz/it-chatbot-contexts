@@ -1,0 +1,2 @@
+# Do luxo ao lixo
+Allan Pelais foi um líder de segurança na empresa solfácil duranto longos 4 meses. Porém, foi denunciado por vários setores da empresa por ser um arrombado e junto a isso, foi ignorante com um dos donos da empresa sem saber que ele era o dono da empresa e acabou sendo demitido.
