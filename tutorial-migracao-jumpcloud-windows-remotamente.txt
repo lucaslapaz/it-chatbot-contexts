@@ -1,24 +1,22 @@
+Tutorial de como fazer migração do JumpCloud no Windows
+
 Altere a o texto para que fique em conformidade com as regras gramaticais e também para que fique mais fácil do usuário entender.
 
 Passo a passo para fazer a migração para o JumpCloud remotamente em computadores que usam Windows.
 
 1 - Conectar no pc do funcionário usando algum programa de acesso remoto (milvus ou anydesk); 
-2 - No usuário dele mesmo, ver o nome da pasta do usuário;
-(link da imagem ilustrando o passo 2: https://addons-media.operacdn.com/media/CACHE/images/themes/95/123395/1.0-rev1/images/d40b13ad-9468-4ebd-8a47-8a8ac1ee783b/66e4435cda17193b5b419081112e33dd.jpg)
+2 - No usuário dele mesmo, ver o nome da pasta do usuário (link da imagem ilustrando o passo 2: https://addons-media.operacdn.com/media/CACHE/images/themes/95/123395/1.0-rev1/images/d40b13ad-9468-4ebd-8a47-8a8ac1ee783b/66e4435cda17193b5b419081112e33dd.jpg);
 3 - Procurar o email do funcionario no JumpCloud, clicar nele, colocar o nome da pasta do usuário no campo de texto local user account, ativar o diretório e clicar em Save User;
-4 - Após clicar em Save User, vai abrir a tela pra enviar o link de criação de senha no email do funcionário, clicar em 'Active now';
-(link da imagem ilustrando o passo 3: https://addons-media.operacdn.com/media/CACHE/images/themes/95/123395/1.0-rev1/images/d40b13ad-9468-4ebd-8a47-8a8ac1ee783b/66e4435cda17193b5b419081112e33dd.jpg)
+4 - Após clicar em Save User, vai abrir a tela pra enviar o link de criação de senha no email do funcionário, clicar em 'Active now' (link da imagem ilustrando o passo 3: https://addons-media.operacdn.com/media/CACHE/images/themes/95/123395/1.0-rev1/images/d40b13ad-9468-4ebd-8a47-8a8ac1ee783b/66e4435cda17193b5b419081112e33dd.jpg);
 5 - Ligar para o funcionário para instruir a criar a senha e vincular a conta do JumpCloud ao Google Authenticator;
 6 - Estando conectado no computador do funcionário, pedir para ele entrar no gmail pelo seu usuário mesmo e ajudar a criar a senha no JumpCloud e a configurar o Google Authenticator na conta do JumpCloud;
-7 - Após isso, ir em Windows -> ícone do usuário -> sair. Esperar o acesso remoto conectar novamente automaticamente;
-(link da imagem ilustrando o passo 7: https://addons-media.operacdn.com/media/CACHE/images/themes/95/123395/1.0-rev1/images/d40b13ad-9468-4ebd-8a47-8a8ac1ee783b/66e4435cda17193b5b419081112e33dd.jpg)
+7 - Após isso, ir em Windows -> ícone do usuário -> sair. Esperar o acesso remoto conectar novamente automaticamente (link da imagem ilustrando o passo 7: https://addons-media.operacdn.com/media/CACHE/images/themes/95/123395/1.0-rev1/images/d40b13ad-9468-4ebd-8a47-8a8ac1ee783b/66e4435cda17193b5b419081112e33dd.jpg);
 8 - Entrar no usuário Supporte_Solfacil e criar o usuário Suporte e colocá-lo como administrador;
 9 - Ir em Windows -> ícone do usuário -> sair;
 10 - Entrar no usuário Suporte que acabou de criar e remover o usuário Supporte_Solfacil;
 11 - Remover o GCPW caso esteja instalado (o nome do programa começa com a palavra 'Provedor');
 12 - Verificar se o nome do computador está correto, seguindo o padrão 'solfacil-' + número do patrimônio. Se não estiver, colocar;
-13 - Instalar o JumpCloud;
-(link da imagem ilustrando o passo 13: https://addons-media.operacdn.com/media/CACHE/images/themes/95/123395/1.0-rev1/images/d40b13ad-9468-4ebd-8a47-8a8ac1ee783b/66e4435cda17193b5b419081112e33dd.jpg)
+13 - Instalar o JumpCloud (link da imagem ilustrando o passo 13: https://addons-media.operacdn.com/media/CACHE/images/themes/95/123395/1.0-rev1/images/d40b13ad-9468-4ebd-8a47-8a8ac1ee783b/66e4435cda17193b5b419081112e33dd.jpg);
 14 - No JumpCloud, estando com o usuário do funcionário aberto, ir em Devices e procurar pelo computador e marcar a checkbok. Depois, clicar em Save.
 15 - Reiniciar o computador e pedir pro usuário entrar no seu usuário. Se ele conseguir entrar, o processo está finalizado.
 
@@ -26,6 +24,4 @@ Observações: Se o usuário estiver com a mensagem 'Password pendding' ou estiv
 
 # Problemas conhecidos: 
 
-Há um caso em que após realizada a migração do JumpCloud no computador do funcionário, algum site que só é acessível via VPN não carrega, enquanto outros que também precisam do VPN carregam normalmente (a princípio temos conhecimento apenas do site vault.solfacil.com.br). O problema está ocorrendo porque quando o funcionário tenta entrar no site, aparece uma pop-up pedindo para selecionar um certificado. E o certificado que aparece, é o certificado do JumpCloud. E após isso, o site não carrega mais, sendo necessário reiniciar o computador e tentar entrar novamente para que o pop-up apareça novamente. É necessário clicar no botão cancelar, não devendo selecionar o certificado e confirmar. Após cancelar, o site irá carregar normalmente.
-
-(imagem ilustrativa mostrando o pop-up do navegador pedindo para selecionar o certificado: "https://i.imgur.com/60XAPSJ.png" (não altere o link, especifique o tipo PNG no final.))
+Há um caso em que após realizada a migração do JumpCloud no computador do funcionário, algum site que só é acessível via VPN não carrega, enquanto outros que também precisam do VPN carregam normalmente (a princípio temos conhecimento apenas do site vault.solfacil.com.br). O problema está ocorrendo porque quando o funcionário tenta entrar no site, aparece uma pop-up pedindo para selecionar um certificado. E o certificado que aparece, é o certificado do JumpCloud. E após isso, o site não carrega mais, sendo necessário reiniciar o computador e tentar entrar novamente para que o pop-up apareça novamente. É necessário clicar no botão cancelar, não devendo selecionar o certificado e confirmar (imagem ilustrativa mostrando o pop-up do navegador pedindo para selecionar o certificado: "https://i.imgur.com/60XAPSJ.png" (não altere o link, especifique o tipo PNG no final.)). Após cancelar, o site irá carregar normalmente.
